@@ -55,7 +55,7 @@ Text playgrounds are more suited for generating standalone text, such as stories
 
     ![](./Images/bedrock-08.png)
 
-3. Choose Select model then choose the Llama 3 8B Instruct.
+3. Choose Select model then choose the Llama 3 8B Instruct, In the inference select **On Demand** and then select **Apply**.
 
     ![](./Images/bedrock-07.png)
 
@@ -70,3 +70,8 @@ Text playgrounds are more suited for generating standalone text, such as stories
     * What is bitcoin mining?
 
         ![](./Images/bedrock-10.png)
+
+**Note:** The response for the prompt **What is bitcoin mining?** is **This topic is not allowed** it is because we have applied the guardrails.
+
+Guardrails in Amazon Bedrock are a safety feature designed to enforce responsible AI usage by filtering and managing the outputs of foundation models. They help block harmful content such as hate speech, violence, profanity, and sexually explicit language. Additionally, guardrails can detect and redact Personally Identifiable Information (PII) to protect user privacy. You can also define custom topics or keywords to block and configure safe, predefined responses when violations occur. These guardrails are applied during model invocations to ensure that generated outputs align with organizational safety and compliance policies.
+
