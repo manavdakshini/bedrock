@@ -53,10 +53,12 @@ Text playgrounds are more suited for generating standalone text, such as stories
 
 2. For Mode, choose **Chat** from the dropdown options.
 
-    ![](./Images/bedrock-08.png)
+    ![](./Images/bedrock-11.png)
 
 3. Choose Select model then choose the Llama 3 8B Instruct, In the inference select **On Demand** and then select **Apply**.
 
+    ![](./Images/bedrock-12.png)
+    
     ![](./Images/bedrock-07.png)
 
 4. In the Configurations section, change the Temperature filter to 1, In the Configurations section, change the Response length filter to 100, For the **Guardrails**, choose the **block-bitcoin-mining**.
