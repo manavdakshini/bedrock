@@ -1,0 +1,21 @@
+[
+    {
+      "Name": "Introduction to Amazon Bedrock",
+      "Language": "English",
+      "BaseURL": "https://github.com/manavdakshini/bedrock",
+      "Files": [
+        {
+          "RawFilePath": "https://raw.githubusercontent.com/manavdakshini/bedrock/main/sample/gettingstarted.md",
+          "Order": 1
+        },
+        {
+          "RawFilePath": "https://raw.githubusercontent.com/manavdakshini/bedrock/main/sample/intro.md",
+          "Order": 2
+        },
+        {
+          "RawFilePath": "https://raw.githubusercontent.com/manavdakshini/bedrock/main/sample/ex-1.md",
+          "Order": 3
+        }
+      ]
+    }
+  ]
